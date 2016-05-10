@@ -106,7 +106,7 @@ ShareAlike - If you remix, transform, or build upon the material, you must distr
             if (typeof values[i] === "object") {
                 iterateParent = parent.slice();
                 if (array) {
-                  iterateParent.push('');
+                  iterateParent.push(i);
                 } else {
                   iterateParent.push(i);
                 }
